@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background-image: url('https://asiandramastoke.wordpress.com/wp-content/uploads/2018/05/a34a9e462e3f2ad9e812a5664282cc76.jpg');
+     
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-wrapper {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+}
+
+.left-side {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.side-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-side {
+    flex: 2;
+    padding: 20px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.ticket-box {
+    padding: 20px;
+    border: 2px solid #2980b9;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .ticket-wrapper {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        flex: none;
+        width: 100%;
+    }
+}
+#ticketTemplate img {
+    width: 70%; 
+    height: auto; 
+}
