@@ -33,6 +33,8 @@
                         <label for="email">Email: </label>
                         <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
 
+                        <br>
+
                         <button type="button" class="btn btn-primary" onclick="submitInfo()">Submit Info</button>
                     </form>
                 </details>
@@ -41,21 +43,23 @@
                     <p>Thank you for submitting your information. You will receive a confirmation email shortly!</p>
                 </div>
 
+                <br>
+
                 <details>
                     <summary>Ticket Price Calculation</summary>
                     <i>Check your ticket price.</i>
                     <hr>
                     <label for="seatChoice">Choose Your Seat:</label>
                     <select id="seatChoice">
-                        <option value="standard">Standard Seat - $50</option>
-                        <option value="premium">Premium Seat - $100</option>
-                        <option value="vip">VIP Seat - $150</option>
+                        <option value="standard">Rear Seat - $50</option>
+                        <option value="premium">Special Seat - $100</option>
+                        <option value="vip">Frontrow Seat - $150</option>
                     </select>
 
                     <label for="optionChoice">Choose an Option:</label>
                     <select id="optionChoice">
                         <option value="none">None</option>
-                        <option value="meal">Meal Option - $20</option>
+                        <option value="meal">Bento Box - $20</option>
                         <option value="drinks">Drinks Option - $10</option>
                         <option value="full">Full Package - $30</option>
                     </select>
@@ -66,6 +70,8 @@
                         <h4>Total Price: $<span id="totalPrice">0</span></h4>
                     </div>
                 </details>
+
+                <br>
 
                 <details>
                     <summary>Print your Ticket</summary>
